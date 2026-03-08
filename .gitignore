@@ -1,0 +1,36 @@
+# Tracking files (contain processed IDs — local state)
+os/email/.processed-inbox
+os/slack/.processed-saved
+os/transcripts/.processed
+
+# Transcripts (large, personal content)
+os/transcripts/*.md
+!os/transcripts/INDEX.md
+
+# Drafts (working documents, ephemeral)
+os/drafts/*
+!os/drafts/.gitkeep
+
+# Sessions (personal session notes)
+os/sessions/*
+!os/sessions/.gitkeep
+
+# People files (private coaching notes)
+os/people/*.md
+!os/people/CLAUDE.md
+!os/people/_template.md
+
+# Video analysis artifacts
+os/videos/
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# OS artifacts
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Obsidian
+.obsidian/
