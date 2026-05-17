@@ -1,10 +1,14 @@
-# bette-os
+# bette-os (archived)
 
 > "I survived because I was tougher than anybody else." — Bette Davis
 
-A PM operating system built on Claude Code. Daily workflows for inbox triage, meeting prep, backlog prioritization, and strategic synthesis.
+**Archived 2026-05-17.** This repo is preserved as a historical snapshot of Bette's operational workflow patterns. Active maintenance has moved to the unified Bette plugin.
 
-**This repo is now part of [Bette](https://github.com/breethomas/bette).** Install the unified plugin to get all 57 skills including everything in this repo.
+## Where to find current thinking
+
+Daily PM workflow skills (digest, catchup, prep-meeting, weekly-review, etc.) now live in:
+
+**[`breethomas/bette/plugins/bette/skills/`](https://github.com/breethomas/bette/tree/main/plugins/bette/skills)**
 
 ## Install Bette
 
@@ -13,20 +17,10 @@ A PM operating system built on Claude Code. Daily workflows for inbox triage, me
 /plugin install bette@breethomas
 ```
 
-## What's Here
-
-23 skills for daily PM operations. Clone this repo to understand the workflow patterns, or just install Bette to use them.
-
-**Comms:** catchup, email-inbox, email-find, slack-inbox, slack-find, slack-catchup
-**Meetings:** digest, sync-transcripts, prep-meeting, log-meeting, coach-me, synthesize
-**Planning:** backlog, focus, weekly-review
-**People:** prep-review
-**Publishing:** save-notion, pyramid
-
 ## License
 
 MIT
 
 ---
 
-*Part of the [Bette](https://github.com/breethomas/bette) system. Fasten your seatbelts.*
+*Historical snapshot. For current state, see [breethomas/bette](https://github.com/breethomas/bette).*
